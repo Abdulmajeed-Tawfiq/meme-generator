@@ -1,8 +1,5 @@
 {
   "homepage": "https://abdulmajeed-tawfiq.github.io/Meme-generator/",
-  "gh-pages": {
-    "dir": "dist"
-  },
   "name": "meme-generator",
   "private": true,
   "version": "0.0.0",
