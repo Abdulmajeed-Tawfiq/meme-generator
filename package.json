@@ -1,8 +1,5 @@
 {
   "homepage": "https://abdulmajeed-tawfiq.github.io/meme-generator/",
-  "gh-pages": {
-    "dir": "dist"
-  },
   "name": "meme-generator",
   "private": true,
   "version": "0.0.0",
@@ -13,6 +10,9 @@
     "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
+  },
+  "gh-pages": {
+    "dir": "dist"
   },
   "dependencies": {
     "html2canvas": "^1.4.1",
