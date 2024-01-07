@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  background-color: black;
+}
+
+.App {
+  margin: 50px;
+  background-color: white;
+}
+
+header {
+  background: linear-gradient(to right, #8852a6, #9f6fb9);
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+header h3 {
+  margin-right: auto;
+}
+
+main {
+  padding-bottom: 30px;
+}
+
+.form {
+  margin-top: 36px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 40px);
+  justify-content: center;
+  gap: 15px;
+  padding: 0 36px;
+  margin-bottom: 20px;
+}
+
+.text {
+  grid-column: 1 / -1;
+  position: relative;
+}
+
+.add-text {
+  background: linear-gradient(to right, #8852a6, #9f6fb9);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.delete {
+  background: linear-gradient(to right, red, red);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.form--input {
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  width: 400px;
+  font-size: 20px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  background: linear-gradient(to right, #8852a6, #9f6fb9);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.meme-body {
+  position: relative;
+  width: fit-content;
+  margin: auto;
+}
+
+.meme--image {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.meme-txt {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.top {
+  top: 30px;
+}
+
+.bottom {
+  bottom: 30px;
+}
+
+.textOnImage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: fit-content;
+  color: white;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: 1px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  cursor: move;
+  user-select: none;
+}
+
+.screenshot {
+  background: linear-gradient(to right, #8852a6, #9f6fb9);
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  display: block;
+  margin: 20px auto 0;
+}
+
+footer {
+  background: #9f6fb9;
+  color: white;
+  padding: 10px;
+}
+footer p {
+  text-align: center;
+}
+
+footer span {
+  color: #1b222f;
+}
+
+.social {
+  flex: 1;
+  align-self: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social i {
+  color: white;
+}
+
+.social a:nth-child(1) i:hover {
+  color: #3548e3;
+}
+.social a:nth-child(2) i:hover {
+  color: #323237;
+}
+.social a:nth-child(3) i:hover {
+  color: #34beff;
+}
+.social a:nth-child(4) i:hover {
+  color: #fc0a1a9c;
+}
+.social a:nth-child(5) {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+}
+.social a:nth-child(5):hover {
+  color: #262634;
+}
