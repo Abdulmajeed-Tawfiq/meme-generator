@@ -15,7 +15,7 @@ export default function Footer() {
           <i class="fa-regular fa-envelope fa-lg"></i>
         </a>
         <a
-          href="https://abdulmajeed-tawfiq.github.io/my-portfolio/"
+          href="https://abdulmajeed-tawfiq.github.io/portfolio/"
           title="portfolio"
         >
           portfolio
