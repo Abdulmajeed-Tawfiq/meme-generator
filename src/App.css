@@ -120,8 +120,6 @@ main {
 .meme-body {
   position: relative;
   width: fit-content;
-  /* margin: auto;
-  padding: 0 40px; */
   height: 450px;
 }
 
