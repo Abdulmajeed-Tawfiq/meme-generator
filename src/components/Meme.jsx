@@ -50,11 +50,11 @@ function Meme() {
   function getMemeImage() {
     const randomNumber = Math.floor(Math.random() * allMemes.length);
     const url = allMemes[randomNumber].url;
+
     setMeme((prevState) => ({
       ...prevState,
       randomImage: url,
     }));
-    console.log(movedText);
   }
 
   function handleChange(event) {
